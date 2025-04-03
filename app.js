@@ -70,3 +70,28 @@ function fnIdiomaRusso(){
     document.getElementById("menu2").innerText = "УСЛУГИ -"
     document.getElementById("menu3").innerText = "КОНТАКТ"
 }
+
+function fnBanner1(){
+    document.getElementById("banner").src="imagens/aaa.avif"
+}
+
+function fnBanner2(){
+    document.getElementById("banner").src="imagens/banner1.jpg"
+}
+
+function fnBanner3(){
+    document.getElementById("banner").src="imagens/banner2.jpg"
+}
+
+function fnBanner4(){
+    document.getElementById("banner").src="imagens/banner3.jpg"
+}
+
+function fnDestaque1Trocar(){
+    document.getElementById("destaque1").src="imagens/destaque1.jpg"
+}
+
+function fnDestaqueOriginal(){
+    document.getElementById("destaque1").src="imagens/foto2.avif"
+}
+

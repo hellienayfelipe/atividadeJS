@@ -15,6 +15,7 @@
             <button type="button" onclick="fnSaudacao()">Seja Bem Vindo</button>
             <button type="button" onclick="fnMostrarHoraAtual()">Mostrar a HORA</button>
             <button type="button" onclick="fnTrocarTitulo()">Trocar Titulo</button>
+            
             <img src="imagens/Brasil.webp" alt="brasil" height="30" onclick="fnIdiomaPortugues()">
             <img src="imagens/EUA.png" alt="EUA" height="30" onclick="fnIdiomaIngles()">
             <img src="imagens/ARABIA.png" alt="arabia" height="30" onclick="fnIdiomaArabe()">
@@ -29,7 +30,11 @@
 
         
         <div class="foto">
-            <img src="imagens/aaa.avif" class="banner">
+            <img src="imagens/aaa.avif" class="banner" id="banner">
+            <button type="button" onclick="fnBanner1()"> 1 </button>
+            <button type="button" onclick="fnBanner2()"> 2 </button>
+            <button type="button" onclick="fnBanner3()"> 3 </button>
+            <button type="button" onclick="fnBanner4()"> 4 </button>
         </div>
         
     
@@ -45,9 +50,9 @@
         </div>
 
         <div class="fotos_serv">
-            <img src="imagens/foto2.avif" class="serv">
-            <img src="imagens/foto3.avif" class="serv"> 
-            <img src="imagens/foto4.avif" class="serv">
+            <img src="imagens/foto2.avif" class="serv" alt="images" id="destaque1" onmouseenter="fnDestaque1Trocar()" onmouseout="fnDestaqueOriginal()">
+            <img src="imagens/foto3.avif" class="serv" alt="images"> 
+            <img src="imagens/foto4.avif" class="serv" alt="imagrs">
         </div>
     </main>
     <script src="app.js"></script>
