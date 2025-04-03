@@ -30,3 +30,43 @@ if(cor == "1"){
 
 document.body.style.backgroundColor = corDeFundo
 }
+
+function fnMostrarHoraAtual(){
+    const agora = new Date()
+    const horas = agora.getHours()
+    const minutos = agora.getMinutes()
+    const segundos = agora.getSeconds()
+    alert(`HORA ATUAL: ${horas}: ${minutos}: ${segundos}` )
+}
+
+
+
+function fnTrocarTitulo(){
+    document.getElementById("titulo01").innerText=prompt("fd")
+
+}
+
+function fnIdiomaPortugues(){
+    document.getElementById("menu1").innerText = "INICIAL -"
+    document.getElementById("menu2").innerText = "SERVIÇOS -"
+    document.getElementById("menu3").innerText = "CONTATO"
+}
+
+
+function fnIdiomaIngles(){
+    document.getElementById("menu1").innerText = "HOME -"
+    document.getElementById("menu2").innerText = "SERVICES -"
+    document.getElementById("menu3").innerText = "CONTACT"
+}
+
+function fnIdiomaArabe(){
+    document.getElementById("menu1").innerText = "الاولي -"
+    document.getElementById("menu2").innerText = "خدمات -"
+    document.getElementById("menu3").innerText = "الاتصال -"
+}
+
+function fnIdiomaRusso(){
+    document.getElementById("menu1").innerText = "НАЧАЛЬНЫЙ -"
+    document.getElementById("menu2").innerText = "УСЛУГИ -"
+    document.getElementById("menu3").innerText = "КОНТАКТ"
+}
